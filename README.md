@@ -10,3 +10,5 @@ Key Features:
 ✔ Simple & Intuitive – Focus on learning, not complicated setups.
 
 Download MemoTest today and make learning effortless!
+
+Latest version: 2025.1.0.0
