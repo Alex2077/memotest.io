@@ -11,4 +11,4 @@ Key Features:
 
 Download MemoTest today and make learning effortless!
 
-Latest version: 2025.1.0.0
+Latest version: 2025.1.1.1
