@@ -14,5 +14,4 @@ Download MemoTest today and make learning effortless!
 Latest version: 2025.1.1.1
 
 Web site:
-https://alex2077.github.io/memotest.io/
 [https://alex2077.github.io/memotest.io/](https://alex2077.github.io/memotest.io/)
