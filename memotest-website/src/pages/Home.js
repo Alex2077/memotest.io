@@ -9,7 +9,7 @@ const Home = () => {
 
         <div className='content-item' style={{border:'0px dashed red'}}>
           <img 
-            src='/mobile_android.webp'
+            src={`${process.env.PUBLIC_URL}/mobile_android.webp`}
             alt='MemoTest in Android'
           />
         </div>
