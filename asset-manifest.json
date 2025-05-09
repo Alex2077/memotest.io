@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/memotest.io/static/css/main.af9006ae.css",
+    "main.js": "/memotest.io/static/js/main.a125037d.js",
+    "static/js/453.c51b660d.chunk.js": "/memotest.io/static/js/453.c51b660d.chunk.js",
+    "static/media/logo.svg": "/memotest.io/static/media/logo.063268decd923e63f3aa98ad76da47ed.svg",
+    "index.html": "/memotest.io/index.html",
+    "main.af9006ae.css.map": "/memotest.io/static/css/main.af9006ae.css.map",
+    "main.a125037d.js.map": "/memotest.io/static/js/main.a125037d.js.map",
+    "453.c51b660d.chunk.js.map": "/memotest.io/static/js/453.c51b660d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af9006ae.css",
+    "static/js/main.a125037d.js"
+  ]
+}
