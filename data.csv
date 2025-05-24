@@ -3,3 +3,19 @@ Which keyword declares a variable that cannot be reassigned?;val
 How do you print "Hello, Kotlin!" in Kotlin?;print("Hello, Kotlin!")
 What is the entry point of a Kotlin program?;main()
 Which operator checks for referential equality?;===
+How do you define a function in Kotlin?;fun funName() {}
+What is the default visibility modifier in Kotlin?;public
+Which keyword creates a singleton in Kotlin?;object
+What does "data class" provide automatically?;toString(), equals(), hashCode()
+How do you make a class inheritable?;open class
+What does "?" indicate in Kotlin?;Nullable type
+How do you safely call a method on a nullable variable?;variable?.method()
+What is the difference between "List" and "MutableList"?;List is immutable, MutableList can be modified
+Which function transforms a collection?;filter(), map(), reduce()
+What does "!!" (not-null assertion) do?;Converts nullable to non-null (throws NPE if null)
+What is a coroutine?;A lightweight thread
+Which dispatcher is used for UI operations in Android?;Dispatchers.Main
+What does "suspend" mean in a function?;The function can be paused and resume
+Which function launches a coroutine?;launch, async
+What is "Flow" in Kotlin?;An asynchronous stream of values
+What is a "sealed class"?;A class with a fixed set of subclasses
