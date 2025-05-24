@@ -1,2 +1,5 @@
-value1,value2
-value3,value4
+What is Kotlin primarily used for?;Mobile and backend development
+Which keyword declares a variable that cannot be reassigned?;val
+How do you print "Hello, Kotlin!" in Kotlin?;print("Hello, Kotlin!")
+What is the entry point of a Kotlin program?;main()
+Which operator checks for referential equality?;===
