@@ -1,40 +1,107 @@
-What is Kotlin primarily used for?;Mobile and backend development
-Which keyword declares a variable that cannot be reassigned?;val
-How do you print "Hello, Kotlin!" in Kotlin?;print("Hello, Kotlin!")
-What is the entry point of a Kotlin program?;main()
-Which operator checks for referential equality?;===
-How do you define a function in Kotlin?;fun funName() {}
-What is the default visibility modifier in Kotlin?;public
-Which keyword creates a singleton in Kotlin?;object
-What does "data class" provide automatically?;toString(), equals(), hashCode()
-How do you make a class inheritable?;open class
-What does "?" indicate in Kotlin?;Nullable type
-How do you safely call a method on a nullable variable?;variable?.method()
-What is the difference between "List" and "MutableList"?;List is immutable, MutableList can be modified
-Which function transforms a collection?;filter(), map(), reduce()
-What does "!!" (not-null assertion) do?;Converts nullable to non-null (throws NPE if null)
-What is a coroutine?;A lightweight thread
-Which dispatcher is used for UI operations in Android?;Dispatchers.Main
-What does "suspend" mean in a function?;The function can be paused and resume
-Which function launches a coroutine?;launch, async
-What is "Flow" in Kotlin?;An asynchronous stream of values
-What is a "sealed class"?;A class with a fixed set of subclasses
-What does "inline" do for a function?;Reduces runtime overhead of lambdas
-Which annotation makes Kotlin code callable from Java?;@JvmStatic, @JvmOverloads, @JvmName
-What is "when" in Kotlin?;A switch-case replacement
-What is the purpose of "lateinit"?;To declare a non-null variable initialized later
-What is an extension function?;A function added to a class without modifying it
-How do you define an extension function for "String"?;fun String.newFunction() {}
-What is a higher-order function?;A function that takes another function as a parameter
-What does "let" do in Kotlin?;Executes a block on a non-null object
-Which keyword is used for lazy initialization?;lazy
-What is delegation in Kotlin?;Passing responsibilities to another object (by keyword)
-How do you declare a generic class in Kotlin?;class Box<T>
-What is "reified" used for with generics?;To access the generic type at runtime in inline functions
-Which feature allows Kotlin to build DSLs (Domain-Specific Languages)?;Extension functions + lambdas with receivers
-How do you handle checked exceptions from Java in Kotlin?;Use @Throws annotation
-What does @JvmStatic do?;Makes a Kotlin function static in Java bytecode
-Which annotation generates a builder for Java interop?;@JvmOverloads
-What is a "crossinline" lambda?;A lambda that can’t use "return" to exit the enclosing function
-Which scope function is best for null checks and transformations?;let
-What does "typealias" do?;Provides an alternative name for an existing type
+What is Java?;Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle).  
+What is the JVM?;The JVM (Java Virtual Machine) is an abstract machine that executes Java bytecode.  
+What is bytecode in Java?;Bytecode is the intermediate representation of Java code that is executed by the JVM.  
+What is the JDK?;The JDK (Java Development Kit) is a software development environment used to develop Java applications.  
+What is the JRE?;The JRE (Java Runtime Environment) provides the libraries and JVM required to run Java programs.  
+What is the difference between JDK and JRE?;JDK is for development (includes compiler and tools), while JRE is only for running Java programs.  
+What is a class in Java?;A class is a blueprint for creating objects, defining properties and behaviors.  
+What is an object in Java?;An object is an instance of a class, with state (fields) and behavior (methods).  
+What is the main method in Java?;public static void main(String[] args) is the entry point of a Java application.  
+What is the difference between == and .equals()?;== compares references, while .equals() compares object content (if overridden).  
+What is a constructor in Java?;A constructor is a special method used to initialize objects when they are created.  
+Can a constructor return a value?;No, constructors do not have return types, not even void.  
+What is method overloading?;Method overloading allows multiple methods with the same name but different parameters.  
+What is method overriding?;Method overriding allows a subclass to provide a specific implementation of a superclass method.  
+What is inheritance in Java?;Inheritance allows a class (subclass) to inherit fields and methods from another class (superclass).  
+What is polymorphism in Java?;Polymorphism allows one interface to be used for multiple forms (method overloading and overriding).  
+What is encapsulation in Java?;Encapsulation is the mechanism of bundling data (fields) and methods that operate on them into a single unit (class).  
+What is abstraction in Java?;Abstraction hides complex implementation details and shows only essential features.  
+What is an interface in Java?;An interface is a reference type that contains abstract methods (Java 8+ allows default/static methods).  
+Can an interface have instance variables?;No, interfaces can only have public static final (constant) variables.  
+What is the difference between an abstract class and an interface?;An abstract class can have concrete methods and fields, while an interface originally couldn't (until Java 8).  
+What is a package in Java?;A package is a namespace that organizes related classes and interfaces.  
+What is the default value of a local variable in Java?;Local variables do not have default values; they must be initialized before use.  
+What is the final keyword in Java?;final can be applied to variables (constant), methods (cannot be overridden), and classes (cannot be inherited).  
+What is the static keyword in Java?;static denotes class-level fields/methods (shared across instances) or static blocks.  
+What is a static block in Java?;A static block is used for static initialization of a class (executed when the class is loaded).  
+What is an instance block in Java?;An instance block runs before the constructor each time an object is created.  
+What is the super keyword in Java?;super refers to the parent class's members or constructor.  
+What is the this keyword in Java?;this refers to the current object instance.  
+What is a singleton class in Java?;A singleton class ensures only one instance exists and provides global access to it.  
+How is a singleton class implemented?;By making the constructor private, providing a static method to return the single instance.  
+What is an enum in Java?;An enum is a special data type that defines a set of named constants.  
+What is autoboxing in Java?;Autoboxing converts a primitive type to its corresponding wrapper class automatically (e.g., int to Integer).  
+What is unboxing in Java?;Unboxing converts a wrapper class object back to its primitive type (e.g., Integer to int).  
+What are wrapper classes in Java?;Wrapper classes (e.g., Integer, Double) allow primitives to be used as objects.  
+What is the difference between int and Integer?;int is a primitive, while Integer is a wrapper class with additional methods.  
+What is a String in Java?;A String is an immutable sequence of characters represented by the String class.  
+Why is String immutable in Java?;For security, thread safety, and optimization (e.g., string pooling).  
+What is the difference between String, StringBuilder, and StringBuffer?;String is immutable; StringBuilder is mutable and not thread-safe; StringBuffer is mutable and thread-safe.  
+What is exception handling in Java?;Exception handling manages runtime errors using try, catch, finally, throw, and throws.  
+What is the difference between checked and unchecked exceptions?;Checked exceptions must be declared/handled (e.g., IOException), while unchecked exceptions (RuntimeException) do not.  
+What is the try-with-resources statement?;It automatically closes resources (like streams) that implement AutoCloseable.  
+What is the throws keyword?;throws declares exceptions that a method might throw, shifting handling responsibility to the caller.  
+What is the throw keyword?;throw explicitly throws an exception (e.g., throw new IllegalArgumentException()).  
+What is the finally block?;finally executes code regardless of whether an exception occurs (used for cleanup).  
+Can finally block be skipped?;Yes, if System.exit() is called or the JVM crashes.  
+What is a custom exception?;A user-defined exception by extending Exception or RuntimeException.  
+What is multithreading in Java?;Multithreading allows concurrent execution of multiple threads within a process.  
+How is a thread created in Java?;By extending Thread class or implementing Runnable (preferred).  
+What is the difference between Thread.start() and Thread.run()?;start() launches a new thread, while run() executes in the current thread.  
+What is synchronization in Java?;Synchronization controls thread access to shared resources to prevent race conditions.  
+What is a deadlock?;A deadlock occurs when two or more threads wait indefinitely for each other's locks.  
+What is the volatile keyword?;volatile ensures a variable is read from/written to main memory (not CPU cache).  
+What is the transient keyword?;transient excludes a field from serialization.  
+What is serialization in Java?;Serialization converts an object into a byte stream for storage/transmission.  
+What is deserialization?;Deserialization reconstructs an object from a byte stream.  
+What is the Comparable interface?;Comparable defines natural ordering (compareTo method).  
+What is the Comparator interface?;Comparator allows custom sorting (compare method).  
+What are generics in Java?;Generics enable type-safe collections (e.g., List<String>).  
+What is type erasure?;Type erasure removes generic type info at runtime for backward compatibility.  
+What is a lambda expression?;A lambda is an anonymous function (e.g., (a, b) -> a + b).  
+What is a functional interface?;An interface with one abstract method (e.g., Runnable, Comparator).  
+What is the @Override annotation?;@Override indicates a method is intended to override a superclass method.  
+What is the diamond operator (<>) in Java?;The diamond operator infers generic types (e.g., List<String> list = new ArrayList<>()).  
+What is the var keyword?;var (Java 10+) allows local variable type inference (e.g., var list = new ArrayList<String>()).  
+What are Java streams?;Streams process sequences of elements (e.g., filtering, mapping) in a functional style.  
+What is the Optional class?;Optional avoids null checks by wrapping potentially null values.  
+What is the difference between List and Set?;List allows duplicates and maintains order; Set forbids duplicates (no order, unless LinkedHashSet).  
+What is the difference between ArrayList and LinkedList?;ArrayList uses a dynamic array (fast access); LinkedList uses nodes (fast insertion/deletion).  
+What is the difference between HashMap and HashTable?;HashMap is not thread-safe and allows nulls; HashTable is synchronized and does not allow nulls.  
+What is hashCode() and equals() contract?;If two objects are equal, their hash codes must be equal (but not vice versa).  
+What is the difference between fail-fast and fail-safe iterators?;Fail-fast throws ConcurrentModificationException if modified during iteration; fail-safe does not.  
+What is reflection in Java?;Reflection inspects/modifies class/object behavior at runtime (e.g., Class.forName()).  
+What is the module system in Java?;Modules (Java 9+) define dependencies and encapsulate packages.  
+What is the JShell tool?;JShell (Java 9+) is an interactive REPL for Java code snippets.  
+What is a record in Java?;A record (Java 14+) is a concise class for immutable data (auto-generates equals, hashCode, etc.).  
+What is a sealed class?;A sealed class (Java 17+) restricts which classes can extend/implement it.  
+What is the difference between throw and throws?;throw raises an exception; throws declares possible exceptions in a method signature.  
+What is the difference between final, finally, and finalize?;final is a modifier; finally is a block; finalize() is a method called before garbage collection.  
+What is garbage collection in Java?;Garbage collection automatically reclaims memory from unreachable objects.  
+What is the difference between System.gc() and Runtime.gc()?;Both suggest JVM run GC, but Runtime.gc() is more direct (System.gc() calls it).  
+What are the four main OOP principles?;Encapsulation, Abstraction, Inheritance, and Polymorphism.  
+What is a marker interface?;An empty interface (e.g., Serializable) used to mark classes for special behavior.  
+What is the difference between deep copy and shallow copy?;Deep copy duplicates all nested objects; shallow copy shares references.  
+What is the ClassLoader in Java?;ClassLoader loads classes dynamically into the JVM.  
+What is the difference between break and continue?;break exits a loop; continue skips to the next iteration.  
+What is the difference between while and do-while?;while checks condition first; do-while executes once before checking.  
+What is a ternary operator?;A shorthand for if-else (e.g., result = (a > b) ? a : b).  
+What is the instanceof operator?;instanceof checks if an object is an instance of a class/interface.  
+What is the difference between & and &&?;& is a bitwise AND; && is a logical AND (short-circuits).  
+What is the difference between | and ||?;| is a bitwise OR; || is a logical OR (short-circuits).  
+What is a Java annotation?;Annotations provide metadata (e.g., @Override, @Deprecated).  
+What is dependency injection?;Dependency injection provides objects (dependencies) to a class externally (e.g., via Spring).  
+What is Spring Framework?;Spring is a framework for enterprise Java applications (DI, MVC, etc.).  
+What is Hibernate?;Hibernate is an ORM (Object-Relational Mapping) tool for database operations.  
+What is Maven?;Maven is a build automation and dependency management tool.  
+What is the difference between JDBC and JPA?;JDBC is a low-level SQL API; JPA is a higher-level ORM specification (e.g., Hibernate).  
+What is a servlet?;A servlet is a Java class that handles HTTP requests/responses (used in web apps).  
+What is JSP?;JavaServer Pages (JSP) embed Java code in HTML for dynamic web content.  
+What is a design pattern?;A reusable solution to common software design problems (e.g., Singleton, Factory).  
+What is the Singleton pattern?;Ensures a class has only one instance with global access.  
+What is the Factory pattern?;Creates objects without specifying the exact class (uses a factory method).  
+What is the Observer pattern?;Defines a one-to-many dependency between objects (e.g., event handling).  
+What is the Builder pattern?;Constructs complex objects step-by-step (e.g., StringBuilder).  
+What is the difference between REST and SOAP?;REST is stateless, uses HTTP/JSON; SOAP is protocol-based, uses XML.  
+What is Spring Boot?;Spring Boot simplifies Spring app setup with auto-configuration and embedded servers.  
+What is microservices architecture?;An architecture where applications are composed of small, independent services.  
