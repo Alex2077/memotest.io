@@ -19,10 +19,7 @@ const Navbar = () => {
             alt="MemoTest logo"
             height="40"
             width="40"
-            style={{
-              position: 'relative',
-              top: '5px',
-            }}
+            className='mt-logo'
           />
           <span className='navbar-app-name'>MemoTest</span>
         </Link>

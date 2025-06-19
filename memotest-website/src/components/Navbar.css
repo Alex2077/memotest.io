@@ -20,6 +20,11 @@
     align-items: center;
     gap: 0.5rem;
   }
+
+  .mt-logo {
+    position: relative;
+    top: 0px;
+  }
   
   .navbar-links {
     display: flex;
