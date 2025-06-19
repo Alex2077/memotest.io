@@ -28,18 +28,24 @@ const Navbar = () => {
         
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
           <Link to="/" className="nav-link">Home</Link>
-          <Link to="/about" className="nav-link">About</Link>
           <Link to="/features" className="nav-link">Features</Link>
           <Link to="/releases" className="nav-link">Releases</Link>
+          <Link to="/about" className="nav-link">About</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
         </div>
         
+        <div className="navbar-right">
+          <button className="primary-button signup-button">Login</button>
+        </div>
+
         <div className="navbar-toggle" onClick={toggleMenu}>
           <span className={`bar ${isOpen ? 'open' : ''}`}></span>
           <span className={`bar ${isOpen ? 'open' : ''}`}></span>
           <span className={`bar ${isOpen ? 'open' : ''}`}></span>
         </div>
+
       </div>
+
     </nav>
   );
 };

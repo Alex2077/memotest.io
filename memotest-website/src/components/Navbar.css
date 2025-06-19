@@ -1,4 +1,4 @@
-.navbar {
+  .navbar {
     background-color: var(--background-color);
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -16,11 +16,16 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
   
   .navbar-links {
     display: flex;
     gap: 2rem;
+    position: absolute;
+    left: 50%;
   }
   
   .nav-link {
@@ -36,6 +41,17 @@
   .navbar-toggle {
     display: none;
     cursor: pointer;
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .signup-button {
+    font-weight: 500;
+    padding: 8px 15px !important;
+    margin-top: 0px !important;
   }
   
   .bar {

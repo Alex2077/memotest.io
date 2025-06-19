@@ -1,7 +1,9 @@
 import React from 'react';
 import './Page.css';
+import Features from './features/Features';
 
 const Home = () => {
+
   return (
     <div className="page-container">
       
@@ -19,8 +21,10 @@ const Home = () => {
           <p>MemoTest is your ultimate learning companion, designed to help you quickly grasp and retain new concepts through interactive flashcards. Simply input your study material, and the app generates targeted questions to test your knowledge.</p>
           <button className="primary-button">Learn More</button>
         </div>
-
       </div>
+
+      <Features />
+
     </div>
   );
 };
