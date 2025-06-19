@@ -28,8 +28,12 @@ const Features = () => {
 
   return (
     
-    <div className='mt-section mt-features-bg-color'>
+    <div id='features' className='mt-section mt-features-bg-color'>
       <div className='mt-section-content'>
+
+        <center>
+          <h1>MemoTest app features</h1>
+        </center>
         
         <div className="cards-container">
           {cards.map((card, index) => (

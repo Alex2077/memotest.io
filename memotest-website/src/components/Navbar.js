@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,8 +29,8 @@ const Navbar = () => {
         
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
           <Link to="/" className="nav-link">Home</Link>
-          <Link to="/features" className="nav-link">Features</Link>
-          <Link to="/releases" className="nav-link">Releases</Link>
+          <HashLink smooth to="#features" className="nav-link">Features</HashLink>
+          <HashLink smooth to="#download" className="nav-link">Download</HashLink>
           <Link to="/about" className="nav-link">About</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
         </div>

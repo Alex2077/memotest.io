@@ -1,6 +1,7 @@
 import React from 'react';
 import './Page.css';
 import Features from './features/Features';
+import Download from './download/Download';
 
 const Home = () => {
 
@@ -24,6 +25,8 @@ const Home = () => {
       </div>
 
       <Features />
+
+      <Download />
 
     </div>
   );
