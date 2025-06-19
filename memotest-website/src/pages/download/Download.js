@@ -15,7 +15,11 @@ const Download = () => {
           <div className='content-item'>
             <h2>Start your journey of learning</h2>
             <p>The latest version of the app is <b>v2025.2.3.4</b></p>
-            <button className="primary-button">Download MemoTest</button>
+            <a 
+            className="primary-button"
+            href='https://github.com/Alex2077/memotest.io/releases/download/v2025.1.1.1/MemoTest_release_v2025.1.1.1_010525_2111.apk'>
+              Download MemoTest
+            </a>
           </div>
 
           <div className='content-item'>
