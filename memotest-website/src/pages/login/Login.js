@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 //import { login } from '../../services/AuthService';
 import { useAuth } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import Alert from '@mui/material/Alert';
 import './Login.css';
 
 const Login = () => {
@@ -42,7 +43,11 @@ const Login = () => {
     <div className="login-container">
       <h1>Sign in to <b>MemoTest</b></h1>
 
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+      {error && (
+        <Alert severity="error" onClose={() => setError('')}>
+          {error}
+        </Alert>
+      )}
       
       <form onSubmit={handleSubmit} className="login-form">
 

@@ -31,7 +31,8 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = async (credentials) => {
-    const { token, user } = await loginUser(credentials);
+    const response = await loginUser(credentials);
+    const { token, user } = response.data;
     localStorage.setItem('token', token);
     setUser(user);
     setIsAuthenticated(true);

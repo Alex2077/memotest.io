@@ -2,12 +2,21 @@ import { useContext } from 'react';
 import { AuthContext } from '../../context/AuthContext';
 
 const Dashboard = () => {
-  const { user } = useContext(AuthContext);
+  const { user, logout } = useContext(AuthContext);
+
+  const userSingout = () => {
+    logout();
+  }
 
   return (
-    <div>
-      <h1>Welcome, {user?.name}</h1>
-      {/* Dashboard content */}
+    <div className='page-container'>
+      <h1>Welcome, {user?.email}</h1>
+      <button 
+          type="submit" 
+          className="primary-button"
+          onClick={userSingout}>
+            Sing out
+        </button>
     </div>
   );
 };

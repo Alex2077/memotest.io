@@ -1,5 +1,5 @@
 import api from '../api/axios';
 
-export const login = (credentials) => {
-    return api.post('/auth/login', credentials) 
+export const login = async (credentials) => {
+    return api.post('/auth/login', credentials);
 };
