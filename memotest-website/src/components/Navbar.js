@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Navbar.css';
 import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
+
+  const navigate = useNavigate();
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -33,7 +36,12 @@ const Navbar = () => {
         </div>
         
         <div className="navbar-right">
-          <button className="primary-button signup-button">Login</button>
+          <button 
+            className="primary-button signup-button"
+            onClick={() => navigate('/login')}
+          >
+              Login
+          </button>
         </div>
 
         <div className="navbar-toggle" onClick={toggleMenu}>
