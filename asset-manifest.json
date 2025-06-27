@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/memotest.io/static/css/main.1722ff49.css",
-    "main.js": "/memotest.io/static/js/main.cb509475.js",
-    "static/js/453.c51b660d.chunk.js": "/memotest.io/static/js/453.c51b660d.chunk.js",
-    "static/media/logo.svg": "/memotest.io/static/media/logo.b975122d9b87b9b027f0f795d622ff19.svg",
-    "index.html": "/memotest.io/index.html",
-    "main.1722ff49.css.map": "/memotest.io/static/css/main.1722ff49.css.map",
-    "main.cb509475.js.map": "/memotest.io/static/js/main.cb509475.js.map",
-    "453.c51b660d.chunk.js.map": "/memotest.io/static/js/453.c51b660d.chunk.js.map"
+    "main.css": "/static/css/main.1722ff49.css",
+    "main.js": "/static/js/main.d6b756ed.js",
+    "static/js/453.c51b660d.chunk.js": "/static/js/453.c51b660d.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.b975122d9b87b9b027f0f795d622ff19.svg",
+    "index.html": "/index.html",
+    "main.1722ff49.css.map": "/static/css/main.1722ff49.css.map",
+    "main.d6b756ed.js.map": "/static/js/main.d6b756ed.js.map",
+    "453.c51b660d.chunk.js.map": "/static/js/453.c51b660d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1722ff49.css",
-    "static/js/main.cb509475.js"
+    "static/js/main.d6b756ed.js"
   ]
 }
