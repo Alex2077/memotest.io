@@ -2,6 +2,7 @@ import React from 'react';
 import './Page.css';
 import Features from './features/Features';
 import Download from './download/Download';
+import { HashLink } from 'react-router-hash-link';
 
 const Home = () => {
 
@@ -18,9 +19,10 @@ const Home = () => {
         </div>
 
         <div className='content-item'>
-          <h1>Master Any Topic with Smart Flashcards</h1>
-          <p>MemoTest is your ultimate learning companion, designed to help you quickly grasp and retain new concepts through interactive flashcards. Simply input your study material, and the app generates targeted questions to test your knowledge.</p>
-          <button className="primary-button">Learn More</button>
+          <h1>Master Any Topic with Smart Tests and Flashcards</h1>
+          <p>MemoTest is your ultimate learning companion, designed to help you quickly grasp and retain new concepts through interactive flashcards. 
+            Simply input your study material, and the app generates targeted questions to test your knowledge.</p>
+          <HashLink smooth to="#download" className="primary-button">Download Memotest App</HashLink>
         </div>
       </div>
 

@@ -1,6 +1,14 @@
+import DownloadIcon from '@mui/icons-material/Download';
+import Android from '@mui/icons-material/Android';
+import { buttonStyle } from '../../components/material/Theme';
+import { Button, Paper, Typography } from '@mui/material';
 import './Download.css';
 
 const Download = () => {
+
+  const latestVersion = process.env.REACT_APP_LATEST_VERSION;
+  const apkUrl = process.env.REACT_APP_APK_URL
+  const bgColor = '#F6F8FA';
 
   return (
     <div id='download' className='mt-section mt-download-bg-color'>
@@ -14,12 +22,32 @@ const Download = () => {
 
           <div className='content-item'>
             <h2>Start your journey of learning</h2>
-            <p>The latest version of the app is <b>v2025.2.3.4</b></p>
-            <a 
-            className="primary-button"
-            href='https://github.com/Alex2077/memotest.io/releases/download/v2025.1.1.1/MemoTest_release_v2025.1.1.1_010525_2111.apk'>
-              Download MemoTest
-            </a>
+            <p>The latest version of the app is <b>v{latestVersion}</b></p>
+            <Paper
+              variant="outlined"
+              sx={{
+                padding:2, 
+                textAlign:'center',
+                background: bgColor
+              }}
+            >
+
+              <Typography variant="body1" noWrap sx={{marginBottom:'0 !important'}}>
+                <Android fontSize="large" sx={{ verticalAlign: 'middle', mr: 1 }} />
+                for Android
+              </Typography>
+
+              <Button
+                type="button"
+                variant="contained"
+                startIcon={<DownloadIcon size={20} />}
+                sx={ buttonStyle }
+                href={apkUrl}
+              >
+                Download MemoTest
+              </Button>
+            </Paper>
+
           </div>
 
           <div className='content-item'>

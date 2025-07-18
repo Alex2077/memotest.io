@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// NOTE: BrowserRoute was changed due to in github the home page does not work
+import { HashRouter as BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProtectedRoute from './ProtectedRoute';
 import AuthRoute from './AuthRoute';
 //import Signup from '../components/auth/Signup';

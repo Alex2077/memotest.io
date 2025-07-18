@@ -1,4 +1,3 @@
-import { color } from "storybook/internal/theming";
 
 const primaryColor = '#92D050';
 const textColor = '#4F545D';
