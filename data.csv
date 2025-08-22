@@ -1,0 +1,80 @@
+EC2 (Elastic Compute Cloud);Virtual servers in the cloud
+Lambda;Serverless compute service for running code without managing servers
+ECS (Elastic Container Service);Docker container management service
+EKS (Elastic Kubernetes Service);Managed Kubernetes service
+Fargate;Serverless compute engine for containers
+Lightsail;Simplified virtual private servers (VPS)
+Batch;Run batch computing workloads at scale
+Elastic Beanstalk;Platform-as-a-Service (PaaS) for deploying apps
+S3 (Simple Storage Service);Object storage for files and backups
+EBS (Elastic Block Store);Block storage for EC2 instances
+EFS (Elastic File System);Managed NFS for shared file storage
+FSx;High-performance file systems (Windows & Lustre)
+S3 Glacier;Low-cost archival storage for backups
+Storage Gateway;Hybrid cloud storage integration
+Backup;Automated backup service for AWS resources
+RDS (Relational Database Service);Managed SQL databases (MySQL, PostgreSQL, etc.)
+DynamoDB;NoSQL database with low latency
+Aurora;High-performance MySQL & PostgreSQL-compatible DB
+ElastiCache;In-memory caching (Redis & Memcached)
+Neptune;Graph database service
+DocumentDB;MongoDB-compatible database
+Keyspaces;Managed Apache Cassandra service
+Timestream;Time-series database for IoT and monitoring
+VPC (Virtual Private Cloud);Isolated cloud network
+CloudFront;Content Delivery Network (CDN)
+Route 53;Domain Name System (DNS) service
+API Gateway;Managed API creation and management
+Direct Connect;Dedicated network connection to AWS
+Global Accelerator;Improve global application performance
+PrivateLink;Secure private connectivity to AWS services
+IAM (Identity & Access Management);Manage user permissions
+Cognito;User authentication for apps
+KMS (Key Management Service);Encryption key management
+Secrets Manager;Securely store and manage secrets
+GuardDuty;Threat detection service
+Inspector;Automated security assessments
+Shield;DDoS protection
+WAF (Web Application Firewall);Filter malicious web traffic
+CloudWatch;Monitoring and observability
+CloudTrail;Logs AWS API activity
+Config;Track AWS resource configurations
+Systems Manager;Manage AWS resources at scale
+Trusted Advisor;Best practice recommendations
+Control Tower;Multi-account governance
+Organizations;Manage multiple AWS accounts
+Redshift;Data warehousing service
+EMR (Elastic MapReduce);Managed Hadoop, Spark, and Hive
+Athena;Query S3 data using SQL
+QuickSight;Business intelligence and dashboards
+Kinesis;Real-time data streaming
+Glue;ETL (Extract, Transform, Load) service
+OpenSearch (formerly Elasticsearch);Search and analytics engine
+SageMaker;Build, train, and deploy ML models
+Rekognition;Image and video analysis
+Lex;Chatbot and voice assistant service
+Polly;Text-to-speech service
+Transcribe;Speech-to-text service
+Forecast;Time-series forecasting
+Comprehend;Natural Language Processing (NLP)
+IoT Core;Connect and manage IoT devices
+Greengrass;Local compute for IoT devices
+FreeRTOS;Real-time OS for microcontrollers
+CodeCommit;Git-based source control
+CodeBuild;Automated build service
+CodeDeploy;Automated deployments
+CodePipeline;CI/CD pipeline automation
+Cloud9;Cloud-based IDE
+DMS (Database Migration Service);Migrate databases to AWS
+SMS (Server Migration Service);Migrate on-prem servers
+Snow Family (Snowcone, Snowball, Snowmobile);Physical data transport
+DataSync;Move data between on-prem and AWS
+SQS (Simple Queue Service);Message queuing service
+SNS (Simple Notification Service);Pub/sub messaging
+EventBridge;Serverless event bus
+Step Functions;Workflow automation
+Sumerian;Create 3D/AR/VR applications
+GameLift;Managed game server hosting
+Braket;Explore quantum computing
+Managed Blockchain;Create and manage blockchain networks
+Ground Station;Control satellite communications
